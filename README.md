@@ -66,13 +66,13 @@ export default {
 </script>
 ```
 
-## Remove click delays
+## 消除点击延迟
 
-include Fastclick
+将Fastclick引入：
 
 `<script type="text/javascript" src="./static/vendors/fastclick.1.0.6.min.js"></script>`
 
-then 
+然后执行： 
 
 ``` js
 if ('addEventListener' in document) {
@@ -82,7 +82,7 @@ if ('addEventListener' in document) {
 }
 ```
 
-## Async loading Components
+## 异步加载组件
 
 ``` js
 // import Countup from './demos/Countup'
@@ -92,11 +92,11 @@ const Countup = function (resolve) {
 }
 ```
 
-## Work in Progress
+## 还在开发中
  
-This project is still in progress, so do not rely on this for anything important before production-ready version released. And pull requests are welcome.
+项目还在开发中, 所以在正式版发布之前不要用于任何重要的项目， 也欢迎pull requests。
 
-## Development Setup
+## 开发设置
 
 ``` bash
 # install dependencies
@@ -112,15 +112,15 @@ npm run build
 npm test
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+关于以上是如何工作的详细解释, 可以查阅： [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-## Components
+## 组件
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/airyland/vux/master/vux.png" width="600">
 </p>
 
-## Liscence
+## 协议
 
 MIT
 
