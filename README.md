@@ -24,14 +24,14 @@
   </a>
 </p>
 
-## Demo
+## 例子
 
 <p align="center">
   <a href="https://vux.li/?x-page=github_readme">https://vux.li</a><br/>
   <img src="https://raw.githubusercontent.com/airyland/vux/master/qr.png" width="300">
 </p>
 
-## Usage
+## 使用
 
 ``` bash
 # install vue-cli
